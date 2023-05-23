@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./esp/pages/Home";
+import Home from "./pages/Home";
 
 
 function App() {
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+
