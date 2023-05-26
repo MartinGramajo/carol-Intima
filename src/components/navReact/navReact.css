@@ -1,0 +1,7 @@
+.logo-navbar{
+    width:250px;
+}
+.navbar-toggler {
+    display: flex;
+    justify-content: end;
+  }

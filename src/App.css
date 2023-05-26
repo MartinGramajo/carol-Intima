@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.color-fondo-negro {
+  background-color: #030304;
+}
+
 .color-fondo-footer {
   background-color: #030304;
 }
