@@ -28,7 +28,7 @@ export default function Marcas() {
                         commodo consequat. Duis aute irure dolor in
                         reprehenderit in voluptate velit pariatur.
                     </h3>
-                    <div className="d-flex justify-content-evenly mb-5 flex-wrap">
+                    <div className="d-flex justify-content-evenly justify-content-lg-between mb-5 flex-wrap">
                         <Image
                             src={cuadrada}
                             alt="producto"
@@ -55,7 +55,7 @@ export default function Marcas() {
                         />
                     </div>
                     <a
-                        className="d-flex justify-content-center pb-5 text-decoration-none"
+                        className="d-flex justify-content-center justify-content-lg-start pb-5 text-decoration-none"
                         href="https://google.com"
                         target="_blank"
                         rel="noreferrer"
