@@ -8,7 +8,7 @@ import logo from "../../assets/img/logo.png";
 
 export default function Footer() {
   return (
-    <div className="mt-auto color-fondo-footer">
+    <div className="mt-auto bg-dark text-white">
       <div className="container pb-5">
         <div className="row">
           <div className="text-center">
@@ -88,7 +88,7 @@ export default function Footer() {
                 </h6>
               </div>
               <div className="d-lg-none d-block">
-                <h6 className="color-gris">
+                <h6 className="text-white">
                   <span>
                     Produced by DKZ Studio &copy; {new Date().getFullYear()}
                   </span>{" "}
