@@ -1,7 +1,12 @@
 .logo-navbar{
     width:250px;
 }
+@media screen and (max-width: 991px) {
+    .logo-navbar{
+        width:200px;
+    }
+}
 .navbar-toggler {
     display: flex;
     justify-content: end;
-  }
+}

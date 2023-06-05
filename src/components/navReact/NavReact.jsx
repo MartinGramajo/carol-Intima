@@ -6,7 +6,7 @@ import "./navReact.css"
 export default function NavReact() {
     return (
         <div>
-            <Navbar expand="lg" className="color-fondo-negro" variant="dark">
+            <Navbar expand="lg" className="color-fondo-negro py-0" variant="dark">
                 <Container className="d-flex align-content-between">
                     <Navbar.Brand href="/">
                         <Image src={logo} fluid alt="Logo" className="logo-navbar" />

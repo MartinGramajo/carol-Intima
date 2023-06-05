@@ -7,6 +7,14 @@ body {
   background-color: #030304;
 }
 
+.color-fondo-blanco {
+  background-color: #FFFF;
+}
+
+.color-negro {
+  color: #030304;
+}
+
 .color-fondo-footer {
   background-color: #030304;
 }

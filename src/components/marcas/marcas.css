@@ -19,3 +19,18 @@
     border-color: #8B8B8B !important;
 }
 
+.boton-marcas2{
+    width: 300px;
+    height: 70px;
+    background-color: transparent  !important;
+    color: #202020  !important;
+    border-color: #202020  !important;
+    border-width: 5px  !important;
+    border-radius: 25px  !important;
+}
+
+.boton-marcas2:hover{
+    background-color: #8B8B8B !important;
+    color: #202020 !important;
+    border-color: #8B8B8B !important;
+}
