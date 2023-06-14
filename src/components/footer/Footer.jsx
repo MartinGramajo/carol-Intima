@@ -1,9 +1,8 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import icono1 from "../../assets/img/footer-icon-1.png";
-import icono2 from "../../assets/img/footer-icon-2.png";
-import icono3 from "../../assets/img/footer-icon-3.png";
-import icono4 from "../../assets/img/footer-icon-4.png";
+import icono2 from "../../assets/img/footer-icon-3.png";
+import icono3 from "../../assets/img/footer-icon-4.png";
 import logo from "../../assets/img/logo.png";
 
 export default function Footer() {
@@ -15,21 +14,7 @@ export default function Footer() {
             <div className="py-2 pt-4">
               <a
                 className="text-decoration-none"
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  className="logo-redes mx-2"
-                  src={icono1}
-                  fluid
-                  alt="face"
-                />
-              </a>
-
-              <a
-                className="text-decoration-none"
-                href="https://www.facebook.com"
+                href="https://www.instagram.com/carolintimalengerie/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -37,12 +22,12 @@ export default function Footer() {
                   className="logo-redes mx-2"
                   src={icono2}
                   fluid
-                  alt="face"
+                  alt="instagram logo"
                 />
               </a>
               <a
                 className="text-decoration-none"
-                href="https://www.instagram.com"
+                href="https://www.facebook.com/carolintimalengerie"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -53,19 +38,20 @@ export default function Footer() {
                   alt="face"
                 />
               </a>
-              <a
+
+              {/* <a
                 className="text-decoration-none"
-                href="https://www.facebook.com"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Image
                   className="logo-redes mx-2"
-                  src={icono4}
+                  src={icono1}
                   fluid
                   alt="face"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="d-flex justify-content-center">
